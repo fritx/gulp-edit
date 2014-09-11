@@ -1,0 +1,26 @@
+{
+  "name": "gulp-edit",
+  "description": "Edit files with gulp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/fritx/gulp-edit",
+  "repository": "git@github.com:fritx/gulp-edit.git",
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin",
+    "edit",
+    "modify"
+  ],
+  "dependencies": {
+    "through2": "~0.4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "gulp": "~3.6.2",
+    "gulp-util": "~2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "licenses": "MIT"
+}
